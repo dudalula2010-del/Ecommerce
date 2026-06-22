@@ -5,7 +5,7 @@ function salvar() {
     } else {
         localStorage.setItem("usuario", usuario)
         console.log('nomeSalvo')
-        window.location.href = "ecomerce/index.html";
+        window.location.href = "ecomerce/principal.html";
     }
     
 }
