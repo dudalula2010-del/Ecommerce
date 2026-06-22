@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DFDBE5;
+    background-color: #d1e5c1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2339583c' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 450px;
+    width: 350px;
+    background-color: rgba(120, 141, 83, 0.598);
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+
+.cadastro input{
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.cadastro button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(48, 72, 37); 
+    color: white;
+}
+
+
+.cadastro img{
+    height: 50px;
+}
+
+.cadastro h2{
+    color: rgb(48, 72, 37);
+}
+
+.cadastro:hover{
+    transform: scale(1.04);
+}

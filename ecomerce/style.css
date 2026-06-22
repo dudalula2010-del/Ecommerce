@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: #a8b794;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.geral {
+    display: flex;
+    /* justify-content: center; */
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.geral input {
+    max-height: 30px;
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+.pesquisa input {
+    width: 400px;
+}
+
+.menu a {
+    color: white;
+    padding: 20px;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.containerTexto {
+    display: flex;
+    overflow: hidden;
+    padding: 5px;
+    width: 100%;
+
+}
+
+.movimentar {
+    display: flex;
+    will-change: transform;
+    animation: movimentar 10s linear infinite;
+    width: max-content;
+    gap: 40px;
+}
+
+@keyframes movimentar {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-33.3333%);
+    }
+}
+
+
+.lancamentos {
+    display: flex;
+    gap: 50px;
+}
+
+
+.tudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6EFDA;
+}
+
+.carrossel {
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.botoes1 {
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.botoes1 button {
+    height: 40px;
+    width: 40px;
+    border-radius: 18px;
+}
+
+
+
+.carrossel img {
+    width: 100%;
+    /* object-fit: cover;
+    object-position: center; */
+    /* padding: 90px; */
+}
+
+
+.quadros {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.quadros img {
+    height: 100px;
+}
+
+.mensagem1 p {
+    font-size: 30px;
+    color: #19301B;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+    color: #19301B;
+}
+
+.mensagem p {
+    font-size: 30px;
+}
+
+
+.cards1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cardsTeste {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    text-align: left;
+    transition: 0.4s ease-in-out;
+
+}
+
+.card button {
+    height: 30px;
+    width: 70px;
+    background-color: #6b926f;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+
+.card p {
+    margin-top: 20px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px rgb(68, 63, 63);
+}
+
+.cardImagem1 img {
+    height: 350px;
+    width: 200px;
+}
+
+.cards3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 200px;
+}
+
+.cards3 img {
+    width: 100%;
+}
+
+.cards4 {
+    display: flex;
+    gap: 50px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.cards4 img {
+    height: 100px;
+}
+
+.texto {
+    display: flex;
+    text-align: left;
+    margin: 20px;
+    height: 500px;
+    width: 1000px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #b1b0b0;
+}
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #d4d3d3;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.atendimento {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagamentos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pagamentos img {
+    height: 30px;
+    width: 240px;
+    ;
+}
+
+.apps img {
+    height: 70px;
+    width: 200px;
+}
+
+
+
+.atendimento {
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 700px; */
+    justify-content: center;
+    text-align: center;
+}
+
+.apss img {
+    display: flex;
+
+}
+
+.apss h2 {
+    display: flex;
+
+}
+
+.primeiro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 7px;
+}
+
+.informacao p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    background-color: #f0f0f0;
+    color: #2e5031;
+    border-radius: 10px;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes img {
+    height: 50px;
+    width: 50px;
+}
+
+.pagamentos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.creditos {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 10px;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    /* margin-left: 40px; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao img {
+    width: 300px;
+    height: auto;
+
+}
+
+.img {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    .cards3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 500px;
+    }
+
+    .quadros {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 20px;
+    }
+
+    .informacao {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 40px;
+    }
+
+    .texto {
+        height: 700px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu a:hover {
+        color: black;
+        transform: scale(1.2);
+    }
+
+    .quadros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .cards1,
+    .cards2 {
+        padding: 0;
+    }
+
+    .primeiro {
+        flex-wrap: wrap;
+    }
+
+    .tudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .informacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .cards4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .cards3 {
+        display: grid;
+        gap: 10px;
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 200px;
+    }
+
+    .mensagem p {
+        font-size: 15px;
+
+    }
+
+
+    .img img {
+        width: 100%;
+    }
+
+    .texto {
+        font-size: 10px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .pagamentos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto {
+        height: 630px;
+        width: 200px;
+    }
+
+
+
+}
